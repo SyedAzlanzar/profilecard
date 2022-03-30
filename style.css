@@ -1,0 +1,98 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(90deg, #0f0c29, #302b63, #24243e);
+}
+.abc1 {
+  border-radius: 10px;
+}
+.abc {
+  border-right: 2px solid white;
+  border-top: 2px solid white;
+  /* border-radius: px; */
+  padding: 5px;
+  border-width: 2px;
+}
+#main {
+  border-bottom: 7px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  margin-top: 25px;
+  box-shadow: 0px 0px 10px inset;
+}
+#email {
+  background: rgb(201, 203, 204);
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px rgba(255,255,255,0.6);
+display: flex;
+justify-content: center;
+align-items: center;
+  padding: 3px;
+  height: 22px;
+}
+
+
+
+
+
+.checkbox {
+	opacity: 0;
+	position: absolute;
+}
+
+.label {
+	background-color: #111;
+	border-radius: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px;
+	position: relative;
+	height: 18px;
+	width: 40px;
+	transform: scale(1.5);
+}
+
+.label .ball {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+  /* right: 1px; */
+	height: 14px;
+	width: 14px;
+	transform: translateX(0px);
+	transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+	transform: translateX(18px);
+}
+
+
+.fa-moon {
+	color: #f1c40f;
+  font-size: x-small;
+}
+
+.fa-sun {
+	color: #f39c12;
+  font-size: x-small;
+
+}
+.main0{
+  background-image: linear-gradient(0deg, #355c7d, #6c5b7b, #c06c84);
+            /* background-color: #355c7d; */
+            border-top: 2px solid white;
+            border-right: 2px solid white;
+            border-left: 2px solid white;
+}
+
+.main1{
+
+background : linear-gradient(180deg,#1c92d2,#f2fcfe);
+
+
+}
